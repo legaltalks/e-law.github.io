@@ -297,6 +297,8 @@ defaults:
       type: posts
     values:
      layout: single
+     toc: true
+     toc_label: "목차"
      author_profile: true
      read_time: true
      comments: # true

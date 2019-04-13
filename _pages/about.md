@@ -3,6 +3,7 @@ layout: single
 classes: wide
 title: " "
 permalink: /about/
+author_profile: false
 date: 2019-03-29 10:08 +0900
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: collection
 classes: wide
 title: "Forms"
 permalink: /forms/
