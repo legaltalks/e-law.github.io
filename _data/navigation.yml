@@ -10,3 +10,26 @@ main:
     url: /categories/
   - title: "서식"
     url: /forms/
+docs:
+  - title: "민법"
+    url: /categories/민법
+  - title: "민사소송법"
+    url: /categories/민사소송법
+  - title: "민사집행법"
+    url: /categories/민사집행법
+  - title: "도산법"
+    url: /categories/도산법
+  - title: "상법"
+    url: /categories/상법
+  - title: "조세법"
+    url: /categories/조세법
+  - title: "형사법"
+    url: /categories/형사법
+  - title: "공법"
+    url: /categories/공법
+  - title: "건설법"
+    url: /categories/건설법
+  - title: "영미법"
+    url: /categories/영미법
+  - title: "법조윤리"
+    url: /categories/법조윤리
