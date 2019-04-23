@@ -6,7 +6,7 @@ permalink: /about/
 author_profile: false
 date: 2019-03-29 10:08 +0900
 ---
-
+[변호사](){: .btn .btn--danger}&ensp; **최은석**
 
 ![Eunseok Choi](/assets/images/photo.jpg){: style="float: left; margin-right: 45px"}
 
@@ -25,3 +25,28 @@ date: 2019-03-29 10:08 +0900
 : 1인 주식회사에서 무한책임의 인정, Vor-Jurist 제8호 2016.
 
 E-mail : <anwalt@legaltalks.co.kr>
+
+<br>
+----
+사무실
+: <font size="3">주소 : 서울특별시 서초구</font>
+{: .notice--danger}
+<style>
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+</style>
+
+<div class="google-maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1582.8028670876577!2d127.01373707005101!3d37.493629315552454!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sko!2skr!4v1556003114929!5m2!1sko!2skr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
