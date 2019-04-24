@@ -7,7 +7,7 @@ date: 2019-03-29 10:08 +0900
 ---
 
 <br>
-[변호사](){: .btn .btn--danger}&ensp; **최은석**
+[//] # "[변호사](){: .btn .btn--danger}&ensp; **최은석**"
 
 ![Eunseok Choi](/assets/images/photo.jpg){: style="float: left; margin-right: 3em; max-width: 25%"}
 
