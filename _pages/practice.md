@@ -1,6 +1,6 @@
 ---
 layout: single
-title: " "
+title: "업무분야"
 permalink: /practice/
 author_profile: true
 date: 2019-4-12 10:08 +0900

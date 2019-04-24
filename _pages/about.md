@@ -1,15 +1,15 @@
 ---
-layout: single
-classes: wide
-title: " "
+layout: splash
+title: "About Legal Talks 律談"
 permalink: /about/
 author_profile: false
 date: 2019-03-29 10:08 +0900
 ---
+
+<br>
 [변호사](){: .btn .btn--danger}&ensp; **최은석**
 
-![Eunseok Choi](/assets/images/photo.jpg){: style="float: left; margin-right: 45px"}
-
+![Eunseok Choi](/assets/images/photo.jpg){: style="float: left; margin-right: 3em; max-width: 25%"}
 
 학력
 : 창원고등학교 졸업, 1994년
@@ -27,7 +27,7 @@ date: 2019-03-29 10:08 +0900
 E-mail : <anwalt@legaltalks.co.kr>
 
 <br>
-----
+* * *
 사무실
 : <font size="3">주소 : 서울특별시 서초구</font>
 {: .notice--danger}
