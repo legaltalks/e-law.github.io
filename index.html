@@ -1,8 +1,28 @@
 ---
-layout: home
+layout: single
 author_profile: true
 excerpt: <font color="gold">Legal Talks 律談은 의뢰인을 파트너로 생각합니다. <br> 사업을 처음 시작하든 이미 해당 분야를 선도하든 상관없이 Legal Talks 律談은 당신의 복잡하고 다양한 법적 문제들에 대해 대응하고 함께 할 것입니다.</font>
 header:
   overlay_image: /assets/images/background-2079392-2430.jpg
 title: " "
 ---
+<h3 class="archive__subtitle">최근 뉴스</h3>
+
+{% assign items = site.news | sort: "date" | reverse %}
+{% for news in items limit: 5 %}
+<h3>
+  <a href="{{ news.url }}"> {{ news.title }}</a> <h4> issued at {{ news.date | date: "%b  %d, %Y" }}</h4>
+</h3>
+   {{ news.excerpt }}
+{% endfor %}
+<a href="/news/" class="btn btn--success">More</a>
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in site.posts limit: 5 %}
+<h3>
+  <a href="{{ post.url }}"> {{ post.title }}</a>
+</h3>
+  {{ post.excerpt }}
+{% endfor %}
+<a href="/categories/" class="btn btn--success">More</a>

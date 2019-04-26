@@ -3,7 +3,7 @@ layout: splash
 title: "About Legal Talks 律談"
 permalink: /about/
 author_profile: false
-date: 2019-03-29 10:08 +0900
+date: 2019-04-27 03:26 +0900
 ---
 
 <br>
@@ -20,6 +20,7 @@ date: 2019-03-29 10:08 +0900
 경력
 : 건설공제조합 과장, 2007년 ~ 2016년
 : 충남대학교 로리뷰 편집위원
+: 변호사(제8회 변호사시험)
 
 저술
 : 1인 주식회사에서 무한책임의 인정, Vor-Jurist 제8호 2016.
