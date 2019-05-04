@@ -3,7 +3,7 @@ main:
   - title: "소개"
     url: /about/
 #  - title: "업무분야"
-    url: /practice/
+#    url: /practice/
   - title: "뉴스"
     url: /news/
   - title: "법률자료"
