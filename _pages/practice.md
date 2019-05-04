@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "업무분야"
-permalink: /practice/
+comment title: "업무분야"
+comment permalink: /practice/
 author_profile: true
 date: 2019-4-12 10:08 +0900
 ---
