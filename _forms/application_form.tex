@@ -1,0 +1,167 @@
+\documentclass[12pt]{oblivoir}
+\usepackage{fapapersize,tabu,siunitx, %siunitx는 단위를 식자하기 위한 패키지 \si{...}명령 사용
+longtable}
+\usepackage[shortlabels]{enumitem} %리스트 환경 정의를 위한 패키지 및 옵션
+
+%A4 용지 및 여백 설정
+\usefapapersize{210mm,297mm,20mm,*,45mm,30mm}
+% fapapersize 패키지를 사용하지 않을 때 memoir 명령을 사용하여 아래와 같이 설정할 수 있다고 하는데 잘 안됨.
+%\setstocksize{297mm}{210mm} %A4 사이즈
+%\settrims{0pt}{0pt} %용지와 판면을 일치
+%이하는 여백을 먼저 설정하는 방법
+%\setlrmarginsandblock{20mm}{20mm}{*} %내측 외측 여백 설정
+%\setulmarginsandblock{45mm}{30mm}{*} % 상하 여백 설정
+%이하는 typeblock의 크기를 직접 지정하는 방법
+%\settypeblocksize{222mm}{170mm}{*}
+%\setlrmargins{*}{*}{1.0}
+%\setulmargins{*}{*}{1.5}
+
+%%%%%--환경 설정--%%%%%
+%1. 리스트 환경 설정
+\AddEnumerateCounter*{\gana}{\@gana}{가} %리스트 환경에서 가, 나, 다, 라 ... 목차. enumitem 패키지 전제
+
+%2. 폰트 설정
+\setmainfont[WordSpace=2.0]{Source Han Serif} %fontspec 패키지의 WordSpace설정을 사용하기 위해 fontspec 명령어인 \setmainfont 사용. 1행의 글자 수를 45-50자 사이로 맞추기 위한 WordSpace 설정
+%\setmainfont[WordSpace=2.0]{HCR Batang}  %폰트를 함초롬체로 설정할 때 사용
+
+%3. Section 양식 설정
+\renewcommand{\thesection}{\arabic{section}.} % section 형식을 "1. 제목"의 형식으로 설정
+\renewcommand{\thesubsection}{\gana{subsection}.} % subsection 형식을 "가. 제목"의 형식으로 설정
+
+\setsecheadstyle{\normalsize} % section 글자 크기를 본문과 동일하게 설정
+\setsubsecheadstyle{\normalsize} % subsection 글자 크기를 본문과 동일하게 설정
+
+\setbeforesecskip{-0ex plus -1ex minus -.2ex} %음수로 설정하면 다음 첫 단락이 들여밀기 되지 않는다. -0는 양수로 인식된다. 따라서 들여밀기를 없애려면 -0.001ex로 설정할 것. subsection에 관해 설정하려면 \setbeforesubsecskip으로 설정. paragraph는 \setbeforeparaskip. 이하 같은 방식 적용.
+\setaftersecskip{.001ex plus .001ex} %양수로 설정하면 별행표제
+\setsecindent{\parindent} %section title을 들여쓰기
+
+%sectioning division에서 둘째 줄 들여쓰기 되지 않도록 설정. \setbeforesecskip 명령을 사용하면 이 설정은 영향을 미치지 않음
+%\makeatletter
+%\def\@hangfrom#1{\setbox\@tempboxa\hbox{{#1}}
+%  \hangindent 0pt
+% \noindent\box\@tempboxa}
+%\makeatother
+
+\def\mysection#1{\hfil #1 \hfil} %제목, 신청취지, 신청이유 등을 가운데 정렬하기 위해 \mysection 명령을 정의
+
+%4. 행간, 문단간격 등 설정
+\linespread{2.1} % 행간을 한 면에 21줄이 들어가도록 설정
+
+%5. table 환경 설정
+% \newcolumntype{b}{>{\hsize=.25\hsize}X} %tabularx의 칼럼 유형. tabularx package를 쓸 때 사용. siunitx package와 함께 쓸 때는 칼럼의 이름을 s 또는 S로 하지 말 것. siunitx package의 S column과 충돌함. tabu package도 마찬가지인데, 다만 sunitx의 S column을 포함해서 재정의할 수는 있음.
+
+% 6. 헤더, 푸터 등 설정
+\renewcommand*{\thepage}{--~\arabic{page}~--} %페이지 번호를 - 1 -의 형식으로 표시
+
+
+
+
+\begin{document}
+\section*{\mysection{\Large 채권가압류 신청서}}
+\vspace{5em}
+{\raggedright
+\begin{tabu} to \linewidth{@{}X[1] @{}X[4]}
+  채 권 자&조자룡(750311-1522475)\\
+  &서울 서초구 서초로 30, 1402호(서초동, 장미아파트)\\
+  &소송대리인(od. 신청대리인) 변호사 강승리\\
+  &서울 서초구 서초동 4321 승리빌딩 101호\\
+  &전화 02-532-2233, 팩스 02-533-1234, 이메일 bictory@naver.com\\
+
+채 무 자&박갈량(541008-1043228)\\
+&서울 관악구 봉천로 12, 102동 403호(봉천동, 봉천아파트)\\
+
+제3채무자&주식회사 신한은행\\
+&서울 중구 남대문로1가 567\\
+&대표이사 남총장\\
+&\\
+청구채권의 내용&물품대금 채권 및 지연손해금 채권\\
+청구금액&1억 원 및 이에 대한 2019. 1. 11.부터 다 갚는 날까지 월 2\%의 비율에 의한 금원
+\end{tabu}
+}
+\par
+\vspace{5em}
+\section*{\mysection{\large 신청취지}}
+\vspace{1em}
+\begin{enumerate}[nosep, left=0pt]
+\item 채무자의 제3채무자에 대한 별지 목록 기재 채권을 가압류한다.
+\item 제3채무자는 채무자에게 위 채권에 관한 지급을 하여서는 아니 된다.
+\end{enumerate}
+라는 결정을 구합니다.
+\vspace{1em}
+\section*{\mysection{\large 신청이유}}
+\vspace{1em}
+\section{피보전권리}
+  채권자는 2018. 9. 10. 채무자와 다음과 같은 내용의 물품공급계약을 체결하였습니다.\\
+  1) 채권자는 채무자에게 상등품 수제구두 150켤레를 공급하고, 채무자는 채권자에게 1억 5천만 원(켤레당 100만 원)을 지급한다.\\
+  2) 채권자는 위 구두 중 50켤레는 2018. 10. 10.까지, 나머지 100켤레는 2018. 12. 20.까지 채무자가 운영하는 신라명품구두에서 채무자에게 인도한다.\\
+  3) 채무자는 위 구두대금 중 5천만 원은 2018. 12. 20.까지, 나머지 1억 원은 2019. 1. 10.까지 채권자의 신한은행 계좌로 이체하여 지급한다.\\
+  4) 채무자가 위 구두대금의 지급을 지체하는 경우 월 2\%의 비율에 의한 지연손해금을 가산하여 지급한다.\\
+  채권자는 위 약정에서 정한 대로 채무자에게 구두를 인도하였고, 채무자는 구두대금 1억 5천만 원 중 5천만 원만 지급하고 나머지 1억 원은 현재까지 지급하지 아니하고 있습니다.\\
+그러므로 채무자는 채권자에게 1억 원 및 이에 대한 2019. 1. 11.부터 다 갚는 날까지 월 2\%의 비율에 의한 돈을 지급할 의무가 있습니다.
+\section{보전의 필요성}
+채권자는 채무자에게 위 구두대금을 청구하기 위한 소를 제기하려고 준비 중인데, 채무자는 도박에 빠져 재산도 탕진하여 거주하던 아파트가 경매되었고 가정도 파탄지경에 이르렀다고 합니다.\\ 채무자가 운영하던 신라명품구두 매장의 임차보증금도 연체차임으로 공제되어 거의 남는 것이 없습니다. 그리고 재고품인 구두 역시 오래되어 사실상 가치가 없습니다.\\
+채권자가 수소문한 바에 따르면 채무자의 신한은행 예금채권이 유일한 재산으로 보여지는바, 채무자가 이를 처분하게 되면 채권자가 본안소송에서 승소하더라도 집행할 재산이 없게 될 우려가 있으므로 그 집행보전을 위하여 이 사건 가압류를 신청하기에 이르렀습니다.
+\section{담보의 제공}
+담보의 제공은 보증보험회사와 지급보증위탁계약을 체결한 문서를 제출하는 것으로 갈음하는 것을 허가하여 주시기 바랍니다.
+\vspace{5em}
+\section*{\mysection{소명방법}}
+\vspace{2em}
+ \begin{tabu} to \linewidth{X}
+    1. 소갑 제1호증(물품거래계약서)\\
+    1. 소갑 제2호증(물품공급확인서)\\
+    1. 소갑 제3호증(영수증 사본)\\
+    1. 소갑 제4호증(이태양의 확인서)\\
+    1. 소갑 제5호증(부동산 등기사항전부증명서)\\
+    1. 소갑 제6호증(임대인 확인서)
+\end{tabu}
+\bigskip
+\section*{\mysection{첨부서류}}
+\vspace{2em}
+\begin{tabu} to \linewidth{X X}
+  1. 각 소명방법&1통\\
+  1. 가압류신청 진술서&1통\\
+  1. 공탁보증보험증권&1통\\
+  1. 송달료 납부서&1통\\
+  1. 소송위임장&1통
+\end{tabu}
+\par\vspace{5em}
+\centering\today{}\par
+\vspace{3em}
+\raggedleft 채권자 소송대리인 변호사 강승리\\
+\vspace{5em}
+\raggedright 서울중앙지방법원 귀중
+\par
+
+
+
+
+%여기서부터 별지
+\newpage
+\pagenumbering{gobble} %page number 생략. page number를 다시 시작하려면 \pagenumbering{arabic} 사용. arabic 이외에 alph, Alph, roman, Roman 등등 사용 가능.
+별지\\
+\bigskip
+\section*{\mysection{목~~~~~록}}
+금 1억 원 및 이에 대한 2019. 1. 11.부터 다 갚는 날까지 월 2\%의 비율로 계산한 돈\\
+\bigskip
+채무자(541008-1043228)가 제3채무자에 대하여 가지는 다음 예금채권 및 위 가압류결정 송달 이후에 새로 입금되는 예금채권 중 다음에서 기재한 순서에 따라 위 청구금액에 이를 때까지의 금액
+\bigskip
+\section*{\mysection{다~~~~~음}}
+\begin{enumerate}[nosep]
+  \item (가)압류되지 않은 예금과 (가)압류된 예금이 있는 때에는 다음 순서에 의하여 가압류한다.
+    \begin{enumerate}[nosep, label=\gana*.]
+    \item 선행 압류·가압류가 되지 않은 예금
+    \item 선행 압류·가압류가 된 예금
+    \end{enumerate}
+  \item 여러 종류의 예금이 있는 때에는 다음 순서에 의하여 가압류한다.
+    \begin{enumerate}[nosep, label=\gana*.]
+      \item 정기예금
+      \item 정기적금
+      \item 보통예금
+      \item 당좌예금
+      \item 별단예금
+      \item 신탁예금
+      \item 기타 제예금
+   \end{enumerate}
+ \item 같은 종류의 예금이 여러 계좌 있는 때에는 가압류 결정 송달 당시 예금 잔액이 많은 예금부터 가압류한다. 끝.
+ \end{enumerate}
+\end{document}

@@ -24,7 +24,7 @@ author_profile: true
   <div class="entries-{{ page.entries_layout | default: 'list' }}">
     {% for news in year.items %}
     {% include documents-collection.html %}
-   <a href="{{ news.url }}"> {{ news.title }}</a>  issued at {{ news.date | date: "%b  %d" }}
+   <a href="{{ news.url }}"> {{ news.title }}</a>  issued at {{ news.date | date: "%b  %d" }}<br>
     {{ news.excerpt }}
 {% endfor %}
  </div>
