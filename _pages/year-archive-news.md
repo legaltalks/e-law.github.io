@@ -17,7 +17,7 @@ author_profile: true
   {% endfor %}
 </ul>
 
-{% assign newsByYear = site.news | group_by_exp: 'news', 'news.date | date: "%Y"' %}
+{% assign newsByYear = site.news | group_by_exp: 'news', 'news.date | date: "%Y"' | sort : 'date' |reverse %}
 {% for year in newsByYear %}
  <section id="{{year.name}}" class="taxonomy_section">
   <h2 class="archive_subtitle">{{year.name}}</h2>
