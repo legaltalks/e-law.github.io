@@ -98,9 +98,9 @@ naver_site_verification  : "f425ead831828ad0def1db6c35357e3bd0c6ed0b"
 
 # Analytics
 analytics:
-  provider               : false # "google-gtag"
+  provider               : "google-gtag"
   google:
-    tracking_id          :
+    tracking_id          : "UA-62498822-6"
     anonymize_ip         : false
 
 
