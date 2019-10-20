@@ -1,9 +1,9 @@
 ---
 layout: splash
-title: "About Legal Talks 律談"
+title: "About 利路 법률사무소"
 permalink: /about/
 author_profile: false
-date: 2019-04-27 03:26 +0900
+date: 2019-11-01 03:26 +0900
 ---
 
 <br>
@@ -25,12 +25,12 @@ date: 2019-04-27 03:26 +0900
 저술
 : 1인 주식회사에서 무한책임의 인정, Vor-Jurist 제8호 2016.
 
-E-mail : <anwalt@legaltalks.co.kr>
+E-mail : <anwalt@e-law.kr>
 
 <br>
 * * *
 사무실
-: <font size="3">주소 : 서울특별시 서초구</font>
+: <font size="3">주소 : 서울특별시 서초구 서초대로 266, 아스트라 빌딩 601호</font>
 {: .notice--danger}
 <style>
     .google-maps {

@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "contrast"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Legal Talks 律談"
+title                    : "利路 법률사무소"
 title_separator          : "|"
 name                     : "최은석"
 description              : "최은석 변호사 법률사무소 - 일반민사, 상사, 인사/노무, 기업구조조정/도산, 건설/부동산, 행정, 조세, 가사, 형사"
-url                      : "https://legaltalks.github.io"
+url                      : "https://e-law.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "legaltalks/legaltalks.github.io"
+repository               : "e-law/e-law.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # " "
@@ -114,7 +114,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:anwalt@legaltalks.co.kr
+      url: mailto:anwalt@e-law.kr
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
