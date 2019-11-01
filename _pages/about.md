@@ -8,7 +8,7 @@ date: 2019-11-01 03:26 +0900
 
 <br>
 [변호사](){: .btn .btn--danger} &ensp; 최은석<br>
-![Eunseok Choi](/assets/images/photo.jpg){: style="float: left; margin-right: 3em; max-width: 25%"}
+ ![Eunseok Choi](/assets/images/photo.jpg){: style="float: right; margin-right: 3em; width: 450; height: 600"}
 
 학력
 : 창원고등학교 졸업
@@ -23,7 +23,7 @@ date: 2019-11-01 03:26 +0900
 : 충남대학교 로리뷰 편집위원
 
 저술
-: 1인 주식회사에서 무한책임의 인정, Vor-Jurist 제8호 2016.
+: 1인 주식회사에서 무한책임의 인정, Vor-Jurist 제8호 2016<br>
 : 공동주택의 전기료 산정방법에 관한 관리규약의 효력, 인권과 정의 제485호 2019.
 
 E-mail : <anwalt@e-law.kr>
