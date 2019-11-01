@@ -1,9 +1,9 @@
 ---
 layout: single
-comment title: "업무분야"
-comment permalink: /practice/
+title: "업무분야"
+permalink: /practice/
 author_profile: true
-date: 2019-4-12 10:08 +0900
+date: 2019-11-2 10:08 +0900
 ---
 <span style="color: green">+ 소송</span><br>
 소송과 관련된 영역에서 종합적이고 최적의 법률서비스를 제공하기 위해 노력하고 있습니다. 주요 업무분야는 아래와 같습니다.<br>
