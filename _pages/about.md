@@ -26,15 +26,22 @@ date: 2019-11-01 03:26 +0900
 : 1인 주식회사에서 무한책임의 인정, Vor-Jurist 제8호 2016<br>
 : 공동주택의 전기료 산정방법에 관한 관리규약의 효력, 인권과 정의 제485호 2019.
 
-Tel : 02-521-0203<br>
-Fax : 02-521-0828<br>
-E-mail : <anwalt@e-law.kr>
-
+주요 업무분야
+: 건설, 부동산, 건설보증, 재개발 및 재건축, 공동주택
+: 법인회생 및 파산
+: 조세
+: 저작권, 상표
+: 상속, 이혼 및 기타 일반 민사
 <br>
 * * *
-사무실
-: <font size="3">주소 : (06646) 서울특별시 서초구 서초대로 266, 아스트라 빌딩 601호</font>
-{: .notice--danger}
+{% capture notice %}
+#### 사무실
+* 주소 : (06646) 서울특별시 서초구 서초대로 266, 아스트라 빌딩 601호
+* Tel : 02-521-0203
+* Fax : 02-521-0828
+* E-mail : <anwalt@e-law.kr>
+{% endcapture %}
+<div class="notice">{{notice | markdownify }}</div>
 <style>
     .google-maps {
         position: relative;
