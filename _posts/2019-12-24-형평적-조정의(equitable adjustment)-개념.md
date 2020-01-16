@@ -39,7 +39,7 @@ performance of any part of the work under this contract, whether or not changed 
 ## 3. 형평적 조정(equitable adjustment)의 방법
 형평적 조정(equitable adjustment)은 기본적으로 도급인(Owner)이 얻은 가치가 아니라 수급인(Contractor)이 지는 부담을 기준으로 한다. 추가공사에 대해서는 증가된 비용(요율에 의해 산정되는 일반관리비 포함)과 이윤, 변경공사 또는 자재 대체의 경우에는 그로 인해 증가 또는 감소된 비용, 삭감된 공사에 대해서는 그로 인해 감소된 비용이 형평적 조정(equitable adjustment) 금액의 계산에서 고려된다. 추가공사에 대하여는 추가공사 그 자체 및 그와 관련되지만 변경되지 아니한 부분에 미치는 영향까지 고려하여 합리적이고 정당화될만한(reasonable and allowable) 비용의 합이 형평적 조정 금액이 된다.[^5]
 
-이때 보상이 되는 부분과 보상이 되지 않는 부분을 구분할 수 없을 때는 대체 방법으로 총비용법(total cost method), 수정 총비용법(modified total cost method), 배심원 평결법(jury verdict method)이 사용될 수 있다. 총비용법(total cost method)은 당초 계약금액을 초과하는 공사금액 전액은 형평적 조정 금액으로 하는 방법이다. 수정 총비용법(modified total cost method)은 총비용법에서 수급인의 책임 있는 과비용분을 공제하는 방법이다. 어느 경우든 두 방법은, 수급인이 다른 평가방법이 없다는 점, 당초 계약금액 및 실제 투입된 비용의 합리성, 추가비용에 대한 상대방 당사자의 책임을 모두 증명해야 하는 부담이 있다.[^6]
+이때 보상이 되는 부분과 보상이 되지 않는 부분을 구분할 수 없을 때는 대체 방법으로 총비용법(total cost method), 수정 총비용법(modified total cost method), 배심원 평결법(jury verdict method)이 사용될 수 있다. 총비용법(total cost method)은 당초 계약금액을 초과하는 공사금액 전액을 형평적 조정 금액으로 하는 방법이다. 수정 총비용법(modified total cost method)은 총비용법에서 수급인의 책임 있는 과비용분을 공제하는 방법이다. 어느 경우든 두 방법은, 수급인이 다른 평가방법이 없다는 점, 당초 계약금액 및 실제 투입된 비용의 합리성, 추가비용에 대한 상대방 당사자의 책임을 모두 증명해야 하는 부담이 있다.[^6]
 
 
 
